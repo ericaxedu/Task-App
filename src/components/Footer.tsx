@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-gray-600">
-            <span>© 2024 Task Tracker</span>
+            <span>© 2025 Task Tracker</span>
             <span className="text-gray-400">•</span>
             <span>Organize your life</span>
           </div>
