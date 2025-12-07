@@ -43,10 +43,12 @@ export default function TaskDetails() {
   }
 
   function handleStatusChange(newStatus: TaskStatus) {
+    if (!task) return
     updateTask(task.id, { status: newStatus })
   }
 
   function handleDelete() {
+    if (!task) return
     if (confirm("Are you sure you want to delete this task?")) {
       deleteTask(task.id)
       navigate("/")
